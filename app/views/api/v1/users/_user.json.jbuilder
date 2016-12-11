@@ -1,0 +1,12 @@
+json.id user.id
+json.first_name user.first_name
+json.last_name user.last_name
+json.name user.name
+json.username user.username
+json.bio user.bio
+json.facebook_user_id user.facebook_user_id
+json.is_facebook_verified @is_facebook_verified 
+json.photo_url user.photo_url
+json.gender user.gender
+json.birthday user.birthday
+json.user_type user.user_type

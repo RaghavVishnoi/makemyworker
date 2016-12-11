@@ -1,0 +1,108 @@
+
+---
+cities:
+  columns:
+  - id
+  - name
+  - created_at
+  - updated_at
+  - lat
+  - lng
+  - time_zone_name
+  records: 
+  - - '1'
+    - Boston
+    - '2016-01-01 01:00:00'
+    - '2016-01-01 01:00:00'
+    - '42.3130324'
+    - "-71.3373355"
+    - Eastern Time (US & Canada)
+
+
+---
+neighborhoods:
+  columns:
+  - id
+  - name
+  - city_id
+  - created_at
+  - updated_at
+  - lat
+  - lng
+  records: 
+  - - '1'
+    - Allston
+    - '1'
+    - '2016-01-01 01:00:00'
+    - '2016-01-01 01:00:00'
+    - '42.3602564'
+    - "-71.1622484"
+  - - '2'
+    - Back Bay
+    - '1'
+    - '2016-01-01 01:00:00'
+    - '2016-01-01 01:00:00'
+    - '42.350265'
+    - "-71.080976"
+  - - '3'
+    - Beacon Hill
+    - '1'
+    - '2016-01-01 01:00:00'
+    - '2016-01-01 01:00:00'
+    - '42.3588'
+    - "-71.070739"
+  - - '4'
+    - Brighton
+    - '1'
+    - '2016-01-01 01:00:00'
+    - '2016-01-01 01:00:00'
+    - '42.3452047'
+    - "-71.1836863"
+
+
+---
+users:
+  columns:
+  - id
+  - first_name
+  - last_name
+  - email
+  - username
+  - photo_url
+  - facebook_user_id
+  - facebook_user_token
+  - token
+  - birthday
+  - gender
+  - bio
+  - city_id
+  - last_known_location
+  - time_zone_name
+  - user_type
+  - is_admin
+  - deleted_at
+  - status
+  - created_at
+  - updated_at
+  records: 
+  - - '1'
+    - Armaan
+    - Gupta
+    - gupta.arm@gmail.com
+    - agupta1130
+    - 
+    - '10205566356342400'
+    - CAAJmD9WA7w0BAKtc2EvSdZAagBpfJcXJrqFK2PZB4NZC3zz5vaosiSkLnbcBCNEI1ZAVqzTz5DWvR9VKK0eb2zsWkBkqSbgd9DNAqyZAauD8ZAOLKLUeHfsT6wN8t2RaySQetQHaxa99x4pSeDV0efbMBbCpYbmpS0w1RAuIbP2rXTmEstGVHYTr6z5YoLy1CdSxobk6o5zSRNMKjxk1vt
+    - a37bcb070e1c5d714c84f170de9a5362461b57dc
+    - 
+    - male
+    - 'Head of UI/UX at Pinch. Pixel Pusher. Product Design Geek. '
+    - 
+    - 
+    - Eastern Time (US & Canada)
+    - '0'
+    - '0'
+    - 
+    - '1'
+    - '2016-01-05 06:04:38'
+    - '2016-01-05 06:04:38'

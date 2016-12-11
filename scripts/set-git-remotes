@@ -1,0 +1,2 @@
+heroku git:remote --app pinch-staging --remote staging
+heroku git:remote --app pinch-production --remote production

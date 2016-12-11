@@ -1,0 +1,2 @@
+git push production master
+heroku run rake db:migrate --app pinch-production

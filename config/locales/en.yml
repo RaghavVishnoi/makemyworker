@@ -1,0 +1,99 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+en:
+  date:
+    formats:
+      default:
+        "%m/%d/%Y"
+      with_weekday:
+        "%a %m/%d/%y"
+      # Monday, December 21
+      plan:
+        "%A, %B %d"
+
+  time:
+    formats:
+      default:
+        "%a, %b %-d, %Y at %r"
+      date:
+        "%b %-d, %Y"
+      short:
+        "%B %d"
+
+  titles:
+    application: Pinch
+  users_going:
+    one: "%{count} person"
+    other: "%{count} people"
+
+  stripe:
+    charge:
+      success: "Payment successful!"
+      response: "Make gig payment"
+    withdraw:
+      success: "Successfully transferred to your bank account!"
+
+  request:
+    update:
+      status:
+        exception: "Sorry you can't update request status!"
+    message_data:
+      date_format: "%I:%M %p"
+    outgoing:
+      date_format: "%FT%H:%M:%S.%LZ"
+    request_data:
+      date_format: "%a, %b %-d, %Y at %H:%M %p"
+
+  users:
+    login:
+      error: "Looks like that email is already used or the password doesn't match."
+    signup:
+      exist:
+        error: "Sorry, this email is already in use. Try another one."
+    show:
+      error: "User not found!"
+    update:
+      username:
+        error:   "Sorry, this username is already in use. Try another one."
+
+  gigs:
+    change_is_active:
+      error: "This gig does not exist!"
+
+  bookmarks:
+    create:
+      error: "You have already bookmarked this gig."
+
+  password:
+    create:
+      success: "Check your email for instructions on how to reset your password."
+      error: "This email does not exist. Try again."
+  my_promo_codes:
+    wrong: "Sorry, this code is invalid. Try another one."
+    success: "Yay! Your code has been applied successfully."
+    exist: "Looks like you already put in a code you haven’t used yet. Only one code can be used at a time so hurry and use it!"
+    expire: "Sorry, this code has expired. Try another one."
+  referral_code:
+    success: "Yay! Your referral code has been applied successfully."
+    exist: "Looks like you already put in a code you haven’t used yet.  Only one code can be used at a time so hurry and use it!"
+    error: "Something went wrong please try again."
+    invalid: "Sorry, this code is invalid. Try another one."

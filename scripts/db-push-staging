@@ -1,0 +1,1 @@
+heroku pg:push pinch_development DATABASE_URL --app pinch-staging
